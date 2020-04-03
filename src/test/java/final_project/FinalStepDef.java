@@ -28,6 +28,7 @@ public class FinalStepDef {
 		driver.manage().window().maximize();
 		//pf = PageFactory.initElements(driver, FinalPf.class);
 		//pf.getSginin().click();
+		//pf.getSginin().click();
 	}
 
 	@Given("^go to sign in button and click it$")

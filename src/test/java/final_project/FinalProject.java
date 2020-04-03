@@ -114,6 +114,7 @@ public class FinalProject {
 		logout.click();
 		// Close Browser
 		// Thread.sleep(4000);
+		// Thread.sleep(4000);
 		driver.close();
 
 	}
