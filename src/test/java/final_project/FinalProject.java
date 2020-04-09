@@ -93,7 +93,8 @@ public class FinalProject {
 		cert.click();
 		WebElement btn = driver.findElement(By.xpath("(//*[@class = 'icon-chevron-right right'])[2]"));
 		// Explicit wait only for line 89 code under example of that...
-		Thread.sleep(2500);
+		
+		Thread.sleep(3000);
 		btn.click();
 
 		// verify Total_price//
@@ -115,7 +116,7 @@ public class FinalProject {
 		// Close Browser
 		// Thread.sleep(4000);
 		// Thread.sleep(4000);
-		driver.close();
+		//driver.close();
 
 	}
 }
