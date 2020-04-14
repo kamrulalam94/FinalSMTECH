@@ -11,3 +11,6 @@ Feature: Final Project of SM Tech
     Then select the second dresses on that list
     And verify Total price including shipping charge
    	Then Logout and close the window
+   	
+   	
+   	
