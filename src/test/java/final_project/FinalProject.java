@@ -1,6 +1,5 @@
 package final_project;
 
-import java.awt.Desktop.Action;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -24,7 +23,7 @@ public class FinalProject {
 		// Open automation practice
 		driver.get("http://automationpractice.com/index.php");
 
-		// Maximize browser
+		// Maximize browse
 		driver.manage().window().maximize();
 
 		// go to sign in button and click it
@@ -116,7 +115,7 @@ public class FinalProject {
 		// Close Browser
 		// Thread.sleep(4000);
 		// Thread.sleep(4000);
-		//driver.close();
+		driver.close();
 
 	}
 }
